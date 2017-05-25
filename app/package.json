@@ -1,0 +1,29 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Files for building website using nodejs and expressjs",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,js,ejs,json --watch app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhargavndesai/ExpressJS.git"
+  },
+  "author": "bhargav desai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhargavndesai/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/bhargavndesai/ExpressJS#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "reload": "^1.1.1"
+  }
+}
